@@ -62,6 +62,7 @@ git reset --hard 目标时间点的哈希值 // 恢复到时间点的状态，
 ```
 // 将远程仓库的名称设置为origin（标识符）
 git remote add origin git@github.com:用户名/git-tutorial.git 
+git remote -v // 查看当前远程仓库
 
 git push // 推送至远程仓库
 
