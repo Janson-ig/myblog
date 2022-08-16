@@ -2,8 +2,8 @@
 title: Spring学习之路（一）
 description: 
 date: 2022-08-13
-slug: Spring
-image: Spring.jpg
+slug: spring
+image: 1.jpg
 categories:
     - Spring
     - 学习笔记
