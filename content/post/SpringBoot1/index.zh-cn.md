@@ -12,6 +12,8 @@ tags:
 ---
 ## 前言
 &emsp;学习路程是按照[Spring实战（第五版）](https://zh.jp1lib.org/book/18238678/2d772e "Spring实战（第五版）")进行，本系列只针对笔者自己进行内容总结，用于加深学习以及日后回顾使用。如感兴趣，推荐阅读参考图书进行学习
+&emsp;书中有较多地方描述比较不清楚，在实际跟着动手操作时，存在很多问题。
+&emsp;[spring-in-action-5-samples](https://github.com/habuma/spring-in-action-5-samples "spring-in-action-5-samples")对书中每一章项目进行了汇总，对照此仓库学习更容易理解
 
 ## Spring项目结构 
 * mvnw和mvnw.cmd：这是Maven包装器（wrapper）脚本，借助脚本，即使没有安装Maven也可以构建项目
