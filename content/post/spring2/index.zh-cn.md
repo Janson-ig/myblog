@@ -46,12 +46,11 @@ tags:
     `<p th:text="${message}">placeholder message</p>`
 
 * Thymeleaf 提供了一个内置的field.hasErrors方法，该方法根据给定字段是否存在任何错误返回一个布尔值。  
-
   &emsp;例如要在一个信用卡号字段上显示验证错误：  
-  `<label for="ccNumber">Credit Card #: </label>  
-  <input type="text" th:field="*{ccNumber}"/>  
-  <span class="validationError"  
-  th:if="${#fields.hasErrors('ccNumber')}"  
-  th:errors="*{ccNumber}">CC Num Error</span>`  
+  `<label for="ccNumber">Credit Card #: </label>·`  
+    `<input type="text" th:field="*{ccNumber}"/>`  
+    `<span class="validationError"`    
+    `th:if="${#fields.hasErrors('ccNumber')}"`    
+    `th:errors="*{ccNumber}">CC Num Error</span>`  
 
 > 如有遗漏或错误，欢迎补充纠正
