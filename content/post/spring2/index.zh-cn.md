@@ -2,7 +2,7 @@
 title: Spring学习之路（二）
 description: 几个模板引擎及模板缓存
 date: 2022-08-15
-slug: spring
+slug: spring2
 image: 1.jpg
 categories:
     - Spring
