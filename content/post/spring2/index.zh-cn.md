@@ -1,6 +1,6 @@
 ---
 title: Spring学习之路（二）
-description: 介绍几个模板引擎
+description: 几个模板引擎及模板缓存
 date: 2022-08-15
 slug: spring
 image: 1.jpg
@@ -29,7 +29,7 @@ tags:
 
 ## 模板缓存
 * 默认情况下，模板只有在**第⼀次使用的时候解析⼀次**，解析的结果会被后续的请求所使⽤。开发期缓存存在时，想要看到变更效果，必须重新启动应用，非常不方便 
-* 禁用模板缓存：将相关缓存属性设成false:在applicatin.properties中添加：
+* 禁用模板缓存：将相关缓存属性设成false:在application.properties中添加：
 `spring.thymeleaf.cache=false`
 
 |        模板        |           启用缓存的属性            |
@@ -37,7 +37,7 @@ tags:
 |    FreeMarker    |   spring.freemarker.cache    |
 | Groovy Templates | spring.groovy.template.cache |
 |     Mustache     |    spring.mustache.cache     |
-|    Thymeleaf     |    spring.themeleaf.cache    |  
+|    Thymeleaf     |    spring.thymeleaf.cache    |  
 
 ## Thymeleaf模板
 * Thymeleaf 模板只是 HTML 与一些额外的元素属性，指导模板在渲染请求数据。 
