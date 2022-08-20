@@ -19,7 +19,8 @@ tags:
 |      FreeMarker       |    spring-boot-starter-freemarker    |
 |   Groovy Templates    | spring-boot-starter-groovy-templates |
 |       Mustache        |     spring-boot-starter-mustache     |
-|       Thymeleaf       |    spring-boot-starter-thymeleaf     | 
+|       Thymeleaf       |    spring-boot-starter-thymeleaf     |  
+
 其中，JSP不需要依赖的原因:
 * 是因为Servlet容器本身（默认是Tomcat）会实现JSP，因此不需要额外的依赖。  
 
