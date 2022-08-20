@@ -1,6 +1,6 @@
 ---
 title: Spring学习之路（一）
-description: 
+description: 介绍Spring项目结构，@SpringBootApplication组合注解，以及Spring的重点项目汇总
 date: 2022-08-13
 slug: spring
 image: 1.jpg
