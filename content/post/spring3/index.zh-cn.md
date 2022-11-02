@@ -44,8 +44,8 @@ public interface UserDetailsService {
 
 
 ## Securing web requests
-&emsp; authorizeRequests()返回(ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)对象，允许指定URL路径和模式，以及路径对应的安全要求：  
-书中项目的代码实现如下：
+&emsp;authorizeRequests()返回(ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)对象，允许指定URL路径和模式，以及路径对应的安全要求：  
+&emsp;书中项目的代码实现如下：
 ```
 /*
  *保证对于/design 和 /orders路径的请求只对认证的用户有效；
@@ -62,7 +62,7 @@ public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 	    .build();
 }
 ```
-Spring web requests的配置方法，以及如何保护路径
+&emsp;Spring web requests的配置方法，以及如何保护路径如下：
 
 |             方法             |                          作用                          |
 |:--------------------------:|:----------------------------------------------------:|
@@ -79,7 +79,7 @@ Spring web requests的配置方法，以及如何保护路径
 |           not()            |                    否定任何其他认证方法的效果                     |
 |        permitAll()         |                       无条件允许访问                        |
 |        rememberMe()        |             允许通过 remember-me 进行身份验证的用户访问             |	
-* 这其中值得注意的事，hasRole()方法可以被hasAuthority()代替：hasRole()方法自动补足ROLE_的前缀。  
+* 这其中值得注意的事，hasRole()方法可以被hasAuthority()代替：hasRole()方法自动补足 **ROLE_** 的前缀。  
 * 设计上来看，一个是权限，一个是角色，角色是权限的集合体。
 
 ## Spring Security对于SpEL表达式的扩展
