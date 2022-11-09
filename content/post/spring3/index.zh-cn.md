@@ -23,7 +23,12 @@ tags:
 | StandardPasswordEncoder | 应用 SHA-256 哈希加密<br/>（被认为不够安全，已经被弃用） |  
 
 &emsp;数据库中密码被加密；  
-&emsp;用户在login输入的密码使用相同的算法进行编码，在数据库使用PasswordEncoder的matches()方法进行比较。
+&emsp;用户在login输入的密码使用相同的算法进行编码，在数据库使用PasswordEncoder的matches()方法进行比较。  
+> &emsp;ps：关于为什么认为StandardPasswordEncoder是不安全的：  
+> &emsp;目前有说法是认为SHA-256不够安全，因为SHA-256算法本身效率高，速度快，所以暴力破解门槛低。  
+> 而bcrypt算法可以通过参数调节计算速度，计算速度慢，所以大幅提高了暴力破解的门槛，安全性也就高了  
+> （但是目前SHA-256还未被成功破解过……？
+
 
 ## UserDetailsService实现：
 Spring Security提供了几个开箱即用的UserDetailsService实现：
