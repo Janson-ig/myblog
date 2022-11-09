@@ -39,7 +39,7 @@ tags:
 ## 应用题目实战:
 
 [LeetCode 28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ "LeetCode 28. Find the Index of the First Occurrence in a String")
-> 项目实战日后补充说明  
+> 题目实战日后补充说明  
 
 同时推荐一个算法可视化工具：  
 [algorithm-visualizer_KMP](https://algorithm-visualizer.org/dynamic-programming/knuth-morris-pratts-string-search "algorithm-visualizer_KMP")
