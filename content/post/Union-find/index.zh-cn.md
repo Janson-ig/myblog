@@ -69,7 +69,8 @@ class Solution {
                 uf[find(s.charAt(0) - 'a')] = find(s.charAt(3) - 'a');
             }
         }
-        //遍历并查集，使用find()方法找到每个集合最尾端的字母，判断最尾端字母是否相同来判断“!=”两边的字母是否位于一个集合内
+        //遍历并查集，使用find()方法找到每个集合最尾端的字母，
+        //判断最尾端字母是否相同来判断“!=”两边的字母是否位于一个集合内
         for(String s : equations){
             if(s.charAt(1) == '!'){
                 if(uf[find(s.charAt(0) - 'a')] == uf[find(s.charAt(3) - 'a')])
