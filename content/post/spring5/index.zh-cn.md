@@ -1,8 +1,8 @@
 ---
 title: Spring学习之路（五）
 description: 配置属性(一)：自动配置
-date: 2022-11-16
-slug: spring4
+date: 2022-12-14
+slug: spring5
 image: 1.jpg
 categories:
     - Spring
