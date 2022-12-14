@@ -21,7 +21,7 @@ tags:
 
 &emsp;在Spring的XML和Java配置中，这两种类型的配置通常在同一个地方**显式声明**。  
 &emsp;在Java配置中，带@bean注解的方法很可能既实例化一个bean，又给它的属性赋值。举例来说，@Bean方法为H2数据库声明一个数据源：
-```	
+```java	
 @Bean
 public DataSource dataSource() {
     return new EmbeddedDatabaseBuilder()
@@ -54,7 +54,7 @@ public DataSource dataSource() {
 ## 配置数据源
 **显示配置自己的datasource**:  
 在```application.yml```配置：
-```
+```yaml
 spring:
     datasource:
         url: jdbc:mysql://localhost/tacocloud
@@ -64,7 +64,7 @@ spring:
 &emsp;**尽管我们需要将对应的JDBC驱动添加到构建⽂件中，但是我们不需要指定JDBC驱动类。Spring Boot会根据数据库URL的结构推算出来。**  
 ### 设置JDBC驱动类
 &emsp;然⽽，我们依然可以通过```spring.datasource.driver-class-name```属性来进⾏设置JDBC驱动类：  
-```
+```yaml
 spring:
     datasource:
         url: jdbc:mysql://localhost/tacocloud
@@ -96,7 +96,7 @@ server:
 1. 可以在命令行中设置，但是不方便
 2. 可以通过```application.properties```或```application.yml```文件来声明配置：
 
-```
+```yaml
 server:
 	port: 8443
 	ssl:
@@ -116,7 +116,7 @@ server:
 &emsp;默认情况下，Spring Boot通过Logback配置日志，日志以INFO级别写入到控制台  
 &emsp;为了完全控制日志的配置，可以在类路径的根目录下```src/main/resources```创建```logback.xml```文件。  
 简单样例：  
-```
+```xml
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -136,7 +136,7 @@ server:
 &emsp;日志配置中最常见变更是**修改日志级别**和**指定日志写入到某个文件**，Spring Boot的配置属性功能如何实现？  
 * 设置日志级别：  
 在```application.yml```中添加条目，例如：  
-```
+```yaml
 logging:
     level:
         root: WARN
@@ -146,7 +146,7 @@ logging:
 
 * 将日志条目写入指定文件：
 如要将日志条目写入到"```/var/logs/```"中的TacoCloud文件中```logging.path```和```logging.file```文件可以如下配置：  
-```
+```yaml
 logging:
     file:
         path: /var/logs/
@@ -165,12 +165,12 @@ logging:
 &emsp;设置属性不局限于将值设置为硬编码的String或数值，可以从其他的**配置属性派生值**：  
 &emsp;假设我们想要设置⼀个名为```greeting.welcome```的属性，它的值来源于名为```spring.application.name```的另⼀个属性：
 &emsp;在设置```greeting.welcome```的时候，可以使用```${}```占位符标记：  
-```
+```yaml
 greeting:
 welcome: ${spring.application.name}
 ```
 &emsp;甚至可以将```${}```占位符嵌入到其他文本中：  
-```
+```yaml
 greeting:
 welcome: You are using ${spring.application.name}.
 ```
