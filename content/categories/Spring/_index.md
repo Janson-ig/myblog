@@ -1,6 +1,6 @@
 ---
 title: "Spring"
-description: "我的Spring学习之路"
+description: "Spring学习之路"
 slug: "spring"
 image: "spring.png"
 style:
