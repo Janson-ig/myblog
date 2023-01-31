@@ -2,7 +2,7 @@
 title: 动态规划(Dynamic programming)问题解法
 description: 方法：「自下而上」或「自上而下」
 date: 2022-05-27
-slug: post1
+slug: DP
 image: PascalTriangleFibanacci.jpg
 categories:
     - 算法

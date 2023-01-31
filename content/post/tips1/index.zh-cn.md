@@ -2,7 +2,7 @@
 title: vscode中ctrl+左键不跳转
 description: 
 date: 2022-12-15
-slug: tips1
+slug: tips-1
 image: 1.png
 categories:
     - 踩坑日志

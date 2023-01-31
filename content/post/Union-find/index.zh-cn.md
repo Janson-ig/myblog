@@ -2,7 +2,7 @@
 title: 并查集（Union-find）[Java]
 description: 简单总结并查集概念及其用法
 date: 2022-11-14
-slug: Union
+slug: Union-find
 image: 1.jpg
 categories:
     - 算法

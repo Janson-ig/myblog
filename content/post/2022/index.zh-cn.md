@@ -2,7 +2,7 @@
 title: 2022年总结
 description: 2022过去了，我很怀念它
 date: 2022-12-06
-slug: 202212
+slug: 2022
 image: 1.jpg
 categories:
     - 留学生活

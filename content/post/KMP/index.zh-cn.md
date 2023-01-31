@@ -2,7 +2,7 @@
 title: KMP算法（字符串匹配算法）
 description: 原理&简单实现
 date: 2022-11-03
-slug: kmp
+slug: KMP
 image: 1.png
 categories:
     - 算法

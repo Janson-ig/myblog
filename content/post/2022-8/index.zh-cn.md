@@ -2,7 +2,7 @@
 title: 2022年8月生活日记
 description: 我的暑假&学长的毕业季
 date: 2022-08-25
-slug: 202208
+slug: 2022-08
 image: title.jpg
 categories:
     - 留学生活

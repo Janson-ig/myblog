@@ -2,7 +2,7 @@
 title: 2022年10月20日
 description: 内心独白
 date: 2022-10-20
-slug: 202210
+slug: 2022-10
 image: 1.jpg
 categories:
     - 留学生活

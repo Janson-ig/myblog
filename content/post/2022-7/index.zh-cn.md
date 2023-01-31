@@ -2,7 +2,7 @@
 title: 2022年7月散记
 description: 
 date: 2022-08-04
-slug: 202207
+slug: 2022-07
 image: 1.jpg
 categories:
     - 留学生活
