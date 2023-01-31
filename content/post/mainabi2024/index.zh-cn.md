@@ -1,9 +1,9 @@
 ---
 title: ｛初期選考と最終選考の違いはコレ! 採用担当者目線で面接のコツを徹底解説講座｝
 description: マイナビ2024セミナー
-date: 2022-1-31
+date: 2023-1-31
 slug: マイナビ2024
-image: 131 .png
+image: 131.png
 categories:
     - 日本
     - 就职
