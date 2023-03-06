@@ -195,12 +195,6 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/wang_0902
-          params:
-              icon: brand-twitter
-
         - identifier: weibo
           name: weibo
           url: https://weibo.com/u/3687367955
