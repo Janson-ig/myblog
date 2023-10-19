@@ -195,12 +195,6 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: linkedin
-          name: linkedin
-          url: https://www.linkedin.com/in/%E5%BB%BA%E5%B5%A9-%E7%8E%8B-a96704163/
-          params:
-              icon: linkedin
-              
 related:
     includeNewer: true
     threshold: 60
