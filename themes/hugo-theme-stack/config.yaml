@@ -3,6 +3,8 @@ module:
         extended: true
         min: "0.87.0"
 
+timeout: "10m"
+
 params:
     mainSections:
         - post
@@ -142,4 +144,3 @@ params:
         content:
             enabled: true
 
-timeout: "10m"
