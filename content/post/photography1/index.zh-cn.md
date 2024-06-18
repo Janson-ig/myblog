@@ -1,5 +1,5 @@
 ---
-title: 2024年黄金周：关西→香港→深圳
+title: 2024年黄金周
 description: 
 date: 2024-04-30
 slug: photography
