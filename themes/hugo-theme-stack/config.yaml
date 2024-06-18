@@ -3,9 +3,8 @@ module:
         extended: true
         min: "0.87.0"
 
-timeout: "10m"
-
 params:
+    timeout: "10m"
     mainSections:
         - post
     featuredImageField: image

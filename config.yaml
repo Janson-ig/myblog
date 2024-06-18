@@ -33,6 +33,7 @@ permalinks:
     page: /:slug/
 
 params:
+    timeout: "10m"
     mainSections:
         - post
     featuredImageField: image
