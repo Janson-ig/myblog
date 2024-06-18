@@ -3,6 +3,7 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: Janson
+timeout: "10m"
 
 languages:
     zh-cn:
@@ -33,7 +34,6 @@ permalinks:
     page: /:slug/
 
 params:
-    timeout: "10m"
     mainSections:
         - post
     featuredImageField: image
