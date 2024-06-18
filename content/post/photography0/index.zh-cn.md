@@ -2,12 +2,12 @@
 title: 2024年黄金周：关西→香港→深圳
 description: 
 date: 2024-04-30
-slug: photography0
-image: DSC_0097.jpg
+slug: photography
+image: DSC_0028.jpg
 categories:
 - 摄影记录
 tags:
-- 摄影记录
+- 摄影
 ---
 
 ## 2024年黄金周：关西→香港→深圳
