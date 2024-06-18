@@ -1,13 +1,13 @@
 ---
-title: 2023年10月18日
+title: 2024年4月30日
 description: 
-date: 2023-10-18
-slug: 2023-10
-image: 1.jpg
+date: 2024-4-30
+slug: 2023-4
+image: DSC_0097.jpg
 categories:
-    - 留学生活
+    - 摄影记录
 tags:
-    - 留学生活
+    - 摄影记录
 ---
 
 ## 2024年黄金周：关西→香港→深圳
