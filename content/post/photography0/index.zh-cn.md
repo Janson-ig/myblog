@@ -5,7 +5,7 @@ date: 2024-04-30
 slug: photography
 image: DSC_0028.jpg
 categories:
-- 摄影记录
+- spring
 tags:
 - 摄影
 ---
@@ -23,4 +23,3 @@ tags:
 ![11](DSC_0224.jpg)
 ![12](DSC_0246.jpg)
 ![13](DSC_0251.jpg)![14](DSC_0283.jpg)
-
