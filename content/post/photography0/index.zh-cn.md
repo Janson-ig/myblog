@@ -1,8 +1,8 @@
 ---
 title: 2024年4月30日
 description: 
-date: 2024-4-30
-slug: 2023-4
+date: 2024-04-30
+slug: 摄影记录
 image: DSC_0097.jpg
 categories:
     - 摄影记录
