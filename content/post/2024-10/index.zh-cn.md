@@ -2,7 +2,7 @@
 title: 2024年10月26日
 description: 
 date: 2024-10-26
-slug: 2024-10
+slug: 2024-10-26
 image: nagoya.jpg
 categories:
     - 日本
