@@ -22,9 +22,12 @@ jobs:
               with:
                   hugo-version: "latest"
                   extended: true
-
+                  safeMode: true
+                  
+      
             - name: Build Web
               run: hugo
+              
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
