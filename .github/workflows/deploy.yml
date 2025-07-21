@@ -22,7 +22,7 @@ jobs:
               with:
                   hugo-version: "latest"
                   extended: true
-                  safeMode: true
+                  unsafe  : true
                   
       
             - name: Build Web
