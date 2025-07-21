@@ -26,7 +26,7 @@ jobs:
                   
       
             - name: Build Web
-              run: hugo --minify --unsafe
+              run: hugo --minify --gc --unsafe
               
 
             - name: Deploy Web
