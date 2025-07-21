@@ -1,7 +1,7 @@
 baseurl: http://www.jansonblog.com/
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+pagination.pagerSize: 5
 title: Janson
 timeout: "10m"
 
